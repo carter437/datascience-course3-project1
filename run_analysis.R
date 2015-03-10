@@ -4,11 +4,14 @@ library("dplyr")
 
 setwd(".")
 
-features <- read.table("./ucidataset/features.txt",head=F)[,2]
+features <- as.vector(read.table("./ucidataset/features.txt",head=F,stringsAsFactors=F)[,2])
 
 readX <- function(dataType){
   DT <- read.table(paste("./ucidataset/",dataType,"/X_",dataType,".txt",sep=""), head=F)
   colnames(DT) <- features
+  DT
 }
 
-testXdt <- readX(dataType="test")
+testXdt  <- readX("test")
+trainXdt <- readX("train")
+
