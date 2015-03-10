@@ -6,12 +6,29 @@ setwd(".")
 
 features <- as.vector(read.table("./ucidataset/features.txt",head=F,stringsAsFactors=F)[,2])
 
-readX <- function(dataType){
-  DT <- read.table(paste("./ucidataset/",dataType,"/X_",dataType,".txt",sep=""), head=F)
+readY <- function(dataType){
+  DT <- read.table(paste("./ucidataset/",dataType,"/y_",dataType,".txt",sep=""), head=F)
+}
+
+addActivityToX <- function(DT,YDT){
+  DT[,"activity"] <- as.vector(YDT$V1)
+  DT
+}
+
+addColumnsToX <- function(DT){
   colnames(DT) <- features
   DT
 }
 
-testXdt  <- readX("test")
-trainXdt <- readX("train")
+readX <- function(dataType){
+  DT <- read.table(paste("./ucidataset/",dataType,"/X_",dataType,".txt",sep=""), head=F)
+  DT
+}
+
+buildDataset <- function(dataType){
+  readX("test") %>% addColumnsToX %>% addActivityToX(readY("test"))
+}
+
+testDF  <- buildDataset("test")
+trainDF <- buildDataset("train")
 
