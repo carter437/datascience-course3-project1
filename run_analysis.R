@@ -4,16 +4,21 @@ library("dplyr")
 
 setwd(".")
 
-activities <- read.table("./ucidataset/activity_labels.txt",stringsAsFactors=F)
-features <- as.vector(read.table("./ucidataset/features.txt",head=F,stringsAsFactors=F)[,2])
+activities <- read.table("./UCI HAR Dataset/activity_labels.txt",stringsAsFactors=F)
+features <- as.vector(read.table("./UCI HAR Dataset/features.txt",head=F,stringsAsFactors=F)[,2])
 
 readSubject <- function(dataType){
-  DT <- read.table(paste("./ucidataset/",dataType,"/subject_",dataType,".txt",sep=""), head=F)
+  DT <- read.table(paste("./UCI HAR Dataset/",dataType,"/subject_",dataType,".txt",sep=""), head=F)
+  DT
+}
+
+readX <- function(dataType){
+  DT <- read.table(paste("./UCI HAR Dataset/",dataType,"/X_",dataType,".txt",sep=""), head=F)
   DT
 }
 
 readY <- function(dataType){
-  DT <- read.table(paste("./ucidataset/",dataType,"/y_",dataType,".txt",sep=""), head=F)
+  DT <- read.table(paste("./UCI HAR Dataset/",dataType,"/y_",dataType,".txt",sep=""), head=F)
   DT
 }
 
@@ -42,11 +47,6 @@ cleanUpColumnNames <- function(cols){
 
 addColumnHeadersToX <- function(DT){
   colnames(DT) <- cleanUpColumnNames(features)
-  DT
-}
-
-readX <- function(dataType){
-  DT <- read.table(paste("./ucidataset/",dataType,"/X_",dataType,".txt",sep=""), head=F)
   DT
 }
 
