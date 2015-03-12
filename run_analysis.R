@@ -4,7 +4,7 @@ library("dplyr")
 
 setwd(".")
 
-activities <- read.table("./ucidataset/activity_labels.txt")
+activities <- read.table("./ucidataset/activity_labels.txt",stringsAsFactors=F)
 features <- as.vector(read.table("./ucidataset/features.txt",head=F,stringsAsFactors=F)[,2])
 
 readSubject <- function(dataType){
@@ -23,10 +23,12 @@ addSubjectColumn <- function(DT,subjectDT){
 }
 
 addActivityColumn <- function(DT,YDT){
-  mappings <- sapply(as.vector(YDT$V1), function(key){
-    activities[key,2]
-  })
-  DT <- cbind(activity = mappings, DT)
+  DT <- cbind(activity = YDT$V1, DT)
+  DT
+}
+
+mapActivityColumn <- function(DT){
+  DT <- mutate(aggregated, activity = activities[activity,2])  
   DT
 }
 
@@ -53,24 +55,16 @@ stdOrMeanColumns <- function(DT){
   subset( DT, select=cols)
 }
 
-addDataTypeColumn <- function(DT,dataType){
-  DT <- cbind(data_set_type = as.vector(rep(dataType,nrow(DT))),DT)
-  DT
-}
-
 buildDataset <- function(dataType){
   readX(dataType) %>% 
     addColumnHeadersToX %>% 
     stdOrMeanColumns %>% 
-    addDataTypeColumn(dataType) %>% 
     addActivityColumn(readY(dataType)) %>% 
     addSubjectColumn(readSubject(dataType))
 }
 
-#testDF  <- buildDataset("test")
-#trainDF <- buildDataset("train")
-
 combined <- bind_rows(buildDataset("test"),buildDataset("train"))
 combinedSorted <- combined[with(combined,order(activity)),]
-
-
+aggregated <- aggregate(combinedSorted[,3:81],combinedSorted[,1:2], data=combinedSorted,FUN=mean)
+aggregated <- mapActivityColumn(aggregated)
+aggregated <- aggregated[with(aggregated,order(subject_id,activity)),]
