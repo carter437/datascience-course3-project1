@@ -1,6 +1,7 @@
 library("datasets")
 library("reshape2")
 library("dplyr")
+library("stringr")
 
 setwd(".")
 
@@ -42,6 +43,8 @@ cleanUpColumnNames <- function(cols){
   cols <- gsub("\\)","",cols)
   cols <- gsub("-","_",cols)
   cols <- gsub(",","_",cols)
+  cols <- str_replace_all(cols,ignore.case("mean"),"Grand_Mean")
+  cols <- str_replace_all(cols,ignore.case("std"),"Std_Mean")
   cols
 }
 
@@ -51,8 +54,10 @@ addColumnHeadersToX <- function(DT){
 }
 
 stdOrMeanColumns <- function(DT){
-  cols <- colnames(DT)[grepl("std|mean",colnames(DT))]
-  subset( DT, select=cols)
+  cols <- colnames(DT)[grepl("Std|Mean",colnames(DT))]
+  DT <- subset( DT, select=cols)
+ # colnames(DT) <- paste(colnames(DT),"_mean",sep="")
+  DT
 }
 
 buildDataset <- function(dataType){
@@ -65,6 +70,6 @@ buildDataset <- function(dataType){
 
 combined <- bind_rows(buildDataset("test"),buildDataset("train"))
 combinedSorted <- combined[with(combined,order(activity)),]
-aggregated <- aggregate(combinedSorted[,3:81],combinedSorted[,1:2], data=combinedSorted,FUN=mean)
+aggregated <- aggregate(combinedSorted[,3:88],combinedSorted[,1:2], data=combinedSorted,FUN=mean)
 aggregated <- mapActivityColumn(aggregated)
 aggregated <- aggregated[with(aggregated,order(subject_id,activity)),]
