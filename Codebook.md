@@ -1,74 +1,198 @@
- subject_id
+ Data Dictionary / Codebook For Summary of Human Activity Recognition Using Smartphones Data Set 
 
- activity
+ The Terms Grand Mean and Std Mean are used frequently in the data labels.  For the purposes of this codebook, the definitions of these terms are as follows:
 
- tBodyAcc_Grand_Mean_X
+ Grand Mean - the mean of the means of several data samples. See <http://en.wikipedia.org/wiki/Grand_mean>
+ Std Mean   - the mean of the standard deviations of several data samples.
 
- tBodyAcc_Grand_Mean_Y
+
+ With the exception of subject_id and activity, the  data labels are summary data of data found in the source data. Additional descriptions concerning the data can be found in the file feature_info.txt in the source dataset. The dataset can be found here <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
+
+ Data Types used to decribe each data are describe here <http://en.wikipedia.org/wiki/Statistical_data_type>
+
+ subject_id		
+ 	type:count
+ 	Unique Identifier for each Subject
+
+ activity		
+ 	type:Category
+ 	Describes the Activity Undertaken
+ 	WALKING
+	WALKING_UPSTAIRS
+	WALKING_DOWNSTAIRS
+	SITTING
+	STANDING
+	LAYING
+
+ tBodyAcc_Grand_Mean_X 		
+ 	type:real-valued
+ 	units: Standard Gravity (G)
+ 	Body Acceleration Grand Mean in the X Direction
+
+ tBodyAcc_Grand_Mean_Y 
+  	type:real-valued
+ 	units: Standard Gravity (G)
+ 	Body Acceleration Grand Mean in the Y Direction
 
  tBodyAcc_Grand_Mean_Z
+  	type:real-valued
+ 	units: Standard Gravity (G)
+ 	Body Acceleration Grand Mean in the Z Direction
 
  tBodyAcc_Std_Mean_X
+   	type:real-valued
+ 	units: Standard Gravity (G)
+ 	Body Acceleration Standard Deviation Mean in the X Direction
 
  tBodyAcc_Std_Mean_Y
+    type:real-valued
+ 	units: Standard Gravity (G)
+ 	Body Acceleration Standard Deviation Mean in the Y Direction
 
  tBodyAcc_Std_Mean_Z
+   	type:real-valued
+ 	units: Standard Gravity (G)
+ 	Body Acceleration Standard Deviation Mean in the Z Direction 
 
  tGravityAcc_Grand_Mean_X
+   	type:real-valued
+ 	units: Standard Gravity (G)
+ 	Gravity Acceleration Grand Mean in the X Direction
 
  tGravityAcc_Grand_Mean_Y
+   	type:real-valued
+ 	units: Standard Gravity (G)
+ 	Gravity Acceleration Grand Mean in the Y Direction
 
  tGravityAcc_Grand_Mean_Z
+   	type:real-valued
+ 	units: Standard Gravity (G)
+ 	Gravity Acceleration Grand Mean in the Z Direction
 
  tGravityAcc_Std_Mean_X
+    type:real-valued
+ 	units: Standard Gravity (G)
+ 	Gravity Acceleration Standard Deviation Mean in the X Direction 
 
  tGravityAcc_Std_Mean_Y
+    type:real-valued
+ 	units: Standard Gravity (G)
+ 	Gravity Acceleration Standard Deviation Mean in the Y Direction 
 
  tGravityAcc_Std_Mean_Z
+    type:real-valued
+ 	units: Standard Gravity (G)
+ 	Gravity Acceleration Standard Deviation Mean in the Z Direction 
 
  tBodyAccJerk_Grand_Mean_X
+    type:real-valued
+ 	units: Standard Gravity (G)
+ 	Body Jerk Acceleration Grand Mean in the X Direction 
 
  tBodyAccJerk_Grand_Mean_Y
+    type:real-valued
+ 	units: Standard Gravity (G)
+ 	Body Jerk Acceleration Grand Mean in the Y Direction 
 
  tBodyAccJerk_Grand_Mean_Z
+    type:real-valued
+ 	units: Standard Gravity (G)
+ 	Body Jerk Acceleration Grand Mean in the Z Direction 
 
  tBodyAccJerk_Std_Mean_X
+    type:real-valued
+ 	units: Standard Gravity (G)
+ 	Body Jerk Acceleration Standard Deviation Mean in the X Direction 
 
  tBodyAccJerk_Std_Mean_Y
+    type:real-valued
+ 	units: Standard Gravity (G)
+ 	Body Jerk Acceleration Standard Deviation Mean in the Y Direction 
 
  tBodyAccJerk_Std_Mean_Z
+    type:real-valued
+ 	units: Standard Gravity (G)
+ 	Body Jerk Acceleration Standard Deviation Mean in the Z Direction 
 
  tBodyGyro_Grand_Mean_X
+ 	type:real-valued
+ 	units: Radians / Second
+ 	Body Gyroscope Angular Velocity Grand Mean in the X Direction
 
  tBodyGyro_Grand_Mean_Y
+  	type:real-valued
+ 	units: Radians / Second
+ 	Body Gyroscope Angular Velocity Grand Mean in the Y Direction
 
  tBodyGyro_Grand_Mean_Z
+  	type:real-valued
+ 	units: Radians / Second
+ 	Body Gyroscope Angular Velocity Grand Mean in the Z Direction
 
  tBodyGyro_Std_Mean_X
+  	type:real-valued
+ 	units: Radians / Second
+ 	Body Gyroscope Angular Velocity Standard Deviation Mean in the X Direction
 
  tBodyGyro_Std_Mean_Y
+  	type:real-valued
+ 	units: Radians / Second
+ 	Body Gyroscope Angular Velocity Standard Deviation Mean in the Y Direction
 
  tBodyGyro_Std_Mean_Z
+  	type:real-valued
+ 	units: Radians / Second
+ 	Body Gyroscope Angular Velocity Standard Deviation Mean in the Z Direction
 
  tBodyGyroJerk_Grand_Mean_X
+   	type:real-valued
+ 	units: Radians / Second
+ 	Body Gyroscope Jerk Angular Velocity Grand Mean in the X Direction
 
  tBodyGyroJerk_Grand_Mean_Y
+    type:real-valued
+ 	units: Radians / Second
+ 	Body Gyroscope Jerk Angular Velocity Grand Mean in the Y Direction
 
  tBodyGyroJerk_Grand_Mean_Z
+    type:real-valued
+ 	units: Radians / Second
+ 	Body Gyroscope Jerk Angular Velocity Grand Mean in the Z Direction
 
  tBodyGyroJerk_Std_Mean_X
+   	type:real-valued
+ 	units: Radians / Second
+ 	Body Gyroscope Jerk Angular Velocity Standard Deviation Mean in the X Direction
 
  tBodyGyroJerk_Std_Mean_Y
+    type:real-valued
+ 	units: Radians / Second
+ 	Body Gyroscope Jerk Angular Velocity Standard Deviation Mean in the Y Direction
 
  tBodyGyroJerk_Std_Mean_Z
+    type:real-valued
+ 	units: Radians / Second
+ 	Body Gyroscope Jerk Angular Velocity Standard Deviation Mean in the Z Direction
 
  tBodyAccMag_Grand_Mean
+    type:real-valued
+ 	units: Standard Gravity (G)
+ 	Body Acceleration Magnitude Grand Mean
 
  tBodyAccMag_Std_Mean
+    type:real-valued
+ 	units: Standard Gravity (G)
+ 	Body Acceleration Magnitude Standard Deviation Mean
 
  tGravityAccMag_Grand_Mean
+    type:real-valued
+ 	units: Standard Gravity (G)
+ 	Gravity Acceleration Magnitude Grand Mean
 
  tGravityAccMag_Std_Mean
+    type:real-valued
+ 	units: Standard Gravity (G)
+ 	Gravity Acceleration Magnitude Standard Deviation Mean
 
  tBodyAccJerkMag_Grand_Mean
 
