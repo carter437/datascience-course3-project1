@@ -23,7 +23,7 @@ Steps 4 thru 11 are performed twice. Once for the training dataset and once for 
 6. Descriptive Column names created in step 4 are added to the `<curr_datset_type>` dataframe.
 7. Columns in the `<curr_datset_type>` dataframe not pertaining to Mean or Standard Deviation are removed. This determation is made by the matching Column names containing `Std` or `Mean` irrespective of case.
 8. Read in activities from `/UCI HAR Dataset/Y_<curr_datset_type>.txt` into a dataframe
-9. Add activity ids from dataframe created in previous step to the `<curr_datset_type>` dataframe
+9. Add activity ids from dataframe created in previous step as a new column in the `<curr_datset_type>` dataframe
 10. Read in the subject data from  `/UCI HAR Dataset/subject_<curr-dataset_type>.txt` into subject dataframe.
 11. Add the subject ids from the subject data frame as a column to the `<curr_datset_type>` dataframe
 12. Set `<curr_dataset_type>` to `test` and repeat steps 4 - 11.
