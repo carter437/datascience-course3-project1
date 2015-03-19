@@ -9,7 +9,7 @@ The codebook for the resultant data produced by the [script](run_analysis.R) can
 The source data, when extracted creates a root directory of `UCI HAR Dataset`. This default directory name is used throughout this documentation as the base directory for the source data files.
 
 The steps the [script](run_analysis.R) takes to produce the summary data are below. 
-Steps X thru X are performed twice. Once for the training dataset and the other for the test dataset.
+Steps 4 thru 11 are performed twice. Once for the training dataset and once for the test dataset.
 
 1. Read in the activity labels from `/UCI HAR Dataset/activity_labels.txt`
 2. Read in the feature descriptions from `/UCI HAR Dataset/features.txt`
