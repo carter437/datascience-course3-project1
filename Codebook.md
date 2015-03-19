@@ -5,6 +5,7 @@
  The Terms Grand Mean and Std Mean are used frequently in the data labels.  For the purposes of this codebook, the definitions of these terms are as follows:
 
  Grand Mean - the mean of the means of several data samples. See <http://en.wikipedia.org/wiki/Grand_mean>
+ 
  Std Mean   - the mean of the standard deviations of several data samples.
 
  Data prefixed with `t` represent measurements in the time domain.
