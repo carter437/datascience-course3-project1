@@ -18,7 +18,7 @@ Steps 4 thru 11 are performed twice. Once for the training dataset and once for 
 5. Construct descriptive Column Names from `/UCI HAR Dataset/features.txt` descriptions obtained in step 3. Steps are below
     1. Remove `(`, `)` from Column descriptions
     2. Replace `-` and `,` with `_` in Column descriptions
-    3. Replace word `mean` with `Grand Mean` in Column Descriptions
+    3. Replace word `mean` with `Grand_Mean` in Column Descriptions
     4. Replace word `std` with `Std_Mean` in Column Descriptions.
 6. Descriptive Column names created in step 4 are added to the `<curr_datset_type>` dataframe.
 7. Columns in the `<curr_datset_type>` dataframe not pertaining to Mean or Standard Deviation are removed. This determation is made by the matching Column names containing `Std` or `Mean` irrespective of case.
