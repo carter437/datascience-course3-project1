@@ -1,6 +1,6 @@
  Data Dictionary / Codebook For Summary of Human Activity Recognition Using Smartphones Data Set 
 
- With the exception of subject_id and activity, the  data labels are summary data of data found in the source dataset. Additional descriptions concerning the data can be found in feature_info.txt in the source dataset. The dataset can be found here <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
+ With the exception of subject_id and activity, the  data labels are summary data of data found in the source dataset. Additional descriptions concerning the data can be found in feature_info.txt in the source dataset. The dataset can be found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
  The Terms Grand Mean and Std Mean are used frequently in the data labels.  For the purposes of this codebook, the definitions of these terms are as follows:
 
