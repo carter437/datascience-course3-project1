@@ -34,10 +34,10 @@
  	units: Standard Gravity (G)
  	Body Acceleration Grand Mean in the X Direction
 
- __*tBodyAcc_Grand_Mean_Y*__ 
-  	type:real-valued
- 	units: Standard Gravity (G)
- 	Body Acceleration Grand Mean in the Y Direction
+ __*tBodyAcc_Grand_Mean_Y*__  
+  	type:real-valued  
+ 	units: Standard Gravity (G)  
+ 	Body Acceleration Grand Mean in the Y Direction  
 
  __*tBodyAcc_Grand_Mean_Z*__
   	type:real-valued
