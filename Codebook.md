@@ -29,202 +29,202 @@
 
  ### 't' Prefix -- Data in the Time Domain (see notes above) ###
 
- __*tBodyAcc_Grand_Mean_X 		
+ __*tBodyAcc_Grand_Mean_X*__ 		
  	type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Grand Mean in the X Direction
 
- __*tBodyAcc_Grand_Mean_Y 
+ __*tBodyAcc_Grand_Mean_Y*__ 
   	type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Grand Mean in the Y Direction
 
- __*tBodyAcc_Grand_Mean_Z
+ __*tBodyAcc_Grand_Mean_Z*__
   	type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Grand Mean in the Z Direction
 
- __*tBodyAcc_Std_Mean_X
+ __*tBodyAcc_Std_Mean_X*__
    	type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Standard Deviation Mean in the X Direction
 
- __*tBodyAcc_Std_Mean_Y
+ __*tBodyAcc_Std_Mean_Y*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Standard Deviation Mean in the Y Direction
 
- __*tBodyAcc_Std_Mean_Z
+ __*tBodyAcc_Std_Mean_Z*__
    	type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Standard Deviation Mean in the Z Direction 
 
- __*tGravityAcc_Grand_Mean_X
+ __*tGravityAcc_Grand_Mean_X*__
    	type:real-valued
  	units: Standard Gravity (G)
  	Gravity Acceleration Grand Mean in the X Direction
 
- __*tGravityAcc_Grand_Mean_Y
+ __*tGravityAcc_Grand_Mean_Y*__
    	type:real-valued
  	units: Standard Gravity (G)
  	Gravity Acceleration Grand Mean in the Y Direction
 
- __*tGravityAcc_Grand_Mean_Z
+ __*tGravityAcc_Grand_Mean_Z*__
    	type:real-valued
  	units: Standard Gravity (G)
  	Gravity Acceleration Grand Mean in the Z Direction
 
- __*tGravityAcc_Std_Mean_X
+ __*tGravityAcc_Std_Mean_X*__
     type:real-valued
  	units: Standard Gravity (G)
  	Gravity Acceleration Standard Deviation Mean in the X Direction 
 
- __*tGravityAcc_Std_Mean_Y
+ __*tGravityAcc_Std_Mean_Y*__
     type:real-valued
  	units: Standard Gravity (G)
  	Gravity Acceleration Standard Deviation Mean in the Y Direction 
 
- __*tGravityAcc_Std_Mean_Z
+ __*tGravityAcc_Std_Mean_Z*__
     type:real-valued
  	units: Standard Gravity (G)
  	Gravity Acceleration Standard Deviation Mean in the Z Direction 
 
- __*tBodyAccJerk_Grand_Mean_X
+ __*tBodyAccJerk_Grand_Mean_X*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Grand Mean in the X Direction 
 
- __*tBodyAccJerk_Grand_Mean_Y
+ __*tBodyAccJerk_Grand_Mean_Y*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Grand Mean in the Y Direction 
 
- __*tBodyAccJerk_Grand_Mean_Z
+ __*tBodyAccJerk_Grand_Mean_Z*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Grand Mean in the Z Direction 
 
- __*tBodyAccJerk_Std_Mean_X
+ __*tBodyAccJerk_Std_Mean_X*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Standard Deviation Mean in the X Direction 
 
- __*tBodyAccJerk_Std_Mean_Y
+ __*tBodyAccJerk_Std_Mean_Y*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Standard Deviation Mean in the Y Direction 
 
- __*tBodyAccJerk_Std_Mean_Z
+ __*tBodyAccJerk_Std_Mean_Z*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Standard Deviation Mean in the Z Direction 
 
- __*tBodyGyro_Grand_Mean_X
+ __*tBodyGyro_Grand_Mean_X*__
  	type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Grand Mean in the X Direction
 
- __*tBodyGyro_Grand_Mean_Y
+ __*tBodyGyro_Grand_Mean_Y*__
   	type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Grand Mean in the Y Direction
 
- __*tBodyGyro_Grand_Mean_Z
+ __*tBodyGyro_Grand_Mean_Z*__
   	type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Grand Mean in the Z Direction
 
- __*tBodyGyro_Std_Mean_X
+ __*tBodyGyro_Std_Mean_X*__
   	type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Standard Deviation Mean in the X Direction
 
- __*tBodyGyro_Std_Mean_Y
+ __*tBodyGyro_Std_Mean_Y*__
   	type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Standard Deviation Mean in the Y Direction
 
- __*tBodyGyro_Std_Mean_Z
+ __*tBodyGyro_Std_Mean_Z*__
   	type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Standard Deviation Mean in the Z Direction
 
- __*tBodyGyroJerk_Grand_Mean_X
+ __*tBodyGyroJerk_Grand_Mean_X*__
    	type:real-valued
  	units: Radians / Second
  	Body Gyroscope Jerk Angular Velocity Grand Mean in the X Direction
 
- __*tBodyGyroJerk_Grand_Mean_Y
+ __*tBodyGyroJerk_Grand_Mean_Y*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Jerk Angular Velocity Grand Mean in the Y Direction
 
- __*tBodyGyroJerk_Grand_Mean_Z
+ __*tBodyGyroJerk_Grand_Mean_Z*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Jerk Angular Velocity Grand Mean in the Z Direction
 
- __*tBodyGyroJerk_Std_Mean_X
+ __*tBodyGyroJerk_Std_Mean_X*__
    	type:real-valued
  	units: Radians / Second
  	Body Gyroscope Jerk Angular Velocity Standard Deviation Mean in the X Direction
 
- __*tBodyGyroJerk_Std_Mean_Y
+ __*tBodyGyroJerk_Std_Mean_Y*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Jerk Angular Velocity Standard Deviation Mean in the Y Direction
 
- __*tBodyGyroJerk_Std_Mean_Z
+ __*tBodyGyroJerk_Std_Mean_Z*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Jerk Angular Velocity Standard Deviation Mean in the Z Direction
 
- __*tBodyAccMag_Grand_Mean
+ __*tBodyAccMag_Grand_Mean*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Magnitude Grand Mean
 
- __*tBodyAccMag_Std_Mean
+ __*tBodyAccMag_Std_Mean*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Magnitude Standard Deviation Mean
 
- __*tGravityAccMag_Grand_Mean
+ __*tGravityAccMag_Grand_Mean*__
     type:real-valued
  	units: Standard Gravity (G)
  	Gravity Acceleration Magnitude Grand Mean
 
- __*tGravityAccMag_Std_Mean
+ __*tGravityAccMag_Std_Mean*__
     type:real-valued
  	units: Standard Gravity (G)
  	Gravity Acceleration Magnitude Standard Deviation Mean
 
- __*tBodyAccJerkMag_Grand_Mean
+ __*tBodyAccJerkMag_Grand_Mean*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Magnitude Grand Mean
 
- __*tBodyAccJerkMag_Std_Mean
+ __*tBodyAccJerkMag_Std_Mean*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Magnitude Standard Deviation Mean
 
- __*tBodyGyroMag_Grand_Mean
+ __*tBodyGyroMag_Grand_Mean*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Grand Mean
 
- __*tBodyGyroMag_Std_Mean
+ __*tBodyGyroMag_Std_Mean*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Standard Deviation Mean
 
- __*tBodyGyroJerkMag_Grand_Mean
+ __*tBodyGyroJerkMag_Grand_Mean*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Jerk Angular Velocity Grand Mean
 
- __*tBodyGyroJerkMag_Std_Mean
+ __*tBodyGyroJerkMag_Std_Mean*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Jerk Angular Velocity Standard Deviation Mean
@@ -233,232 +233,232 @@
  ### 'f' Prefix -- Data in the Frequency Domain (see notes above) ###
 
  
- __*fBodyAcc_Grand_Mean_X
+ __*fBodyAcc_Grand_Mean_X*__
   	type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Grand Mean in the X Direction
 
- __*fBodyAcc_Grand_Mean_Y
+ __*fBodyAcc_Grand_Mean_Y*__
    	type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Grand Mean in the Y Direction
 
- __*fBodyAcc_Grand_Mean_Z
+ __*fBodyAcc_Grand_Mean_Z*__
    	type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Grand Mean in the Z Direction
 
- __*fBodyAcc_Std_Mean_X
+ __*fBodyAcc_Std_Mean_X*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Standard Deviation Mean in the X Direction
 
- __*fBodyAcc_Std_Mean_Y
+ __*fBodyAcc_Std_Mean_Y*__
    	type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Standard Deviation Mean in the Y Direction
 
- __*fBodyAcc_Std_Mean_Z
+ __*fBodyAcc_Std_Mean_Z*__
    	type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Standard Deviation Mean in the Z Direction
 
- __*fBodyAcc_Grand_MeanFreq_X
+ __*fBodyAcc_Grand_MeanFreq_X*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Frequency Grand Mean in the X Direction
 
- __*fBodyAcc_Grand_MeanFreq_Y
+ __*fBodyAcc_Grand_MeanFreq_Y*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Frequency Grand Mean in the Y Direction
 
- __*fBodyAcc_Grand_MeanFreq_Z
+ __*fBodyAcc_Grand_MeanFreq_Z*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Frequency Grand Mean in the Z Direction
 
- __*fBodyAccJerk_Grand_Mean_X
+ __*fBodyAccJerk_Grand_Mean_X*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Grand Mean in the X Direction
 
- __*fBodyAccJerk_Grand_Mean_Y
+ __*fBodyAccJerk_Grand_Mean_Y*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Grand Mean in the Y Direction
 
- __*fBodyAccJerk_Grand_Mean_Z
+ __*fBodyAccJerk_Grand_Mean_Z*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Grand Mean in the Z Direction
 
- __*fBodyAccJerk_Std_Mean_X
+ __*fBodyAccJerk_Std_Mean_X*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Standard Deviation Mean in the X Direction
 
- __*fBodyAccJerk_Std_Mean_Y
+ __*fBodyAccJerk_Std_Mean_Y*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Standard Deviation Mean in the Y Direction
 
- __*fBodyAccJerk_Std_Mean_Z
+ __*fBodyAccJerk_Std_Mean_Z*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Standard Deviation Mean in the Z Direction
 
- __*fBodyAccJerk_Grand_MeanFreq_X
+ __*fBodyAccJerk_Grand_MeanFreq_X*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Frequencey Grand Mean in the X Direction
 
- __*fBodyAccJerk_Grand_MeanFreq_Y
+ __*fBodyAccJerk_Grand_MeanFreq_Y*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Frequencey Grand Mean in the Y Direction
 
- __*fBodyAccJerk_Grand_MeanFreq_Z
+ __*fBodyAccJerk_Grand_MeanFreq_Z*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Jerk Acceleration Frequencey Grand Mean in the Z Direction
 
- __*fBodyGyro_Grand_Mean_X
+ __*fBodyGyro_Grand_Mean_X*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Grand Mean in the X Direction
 
- __*fBodyGyro_Grand_Mean_Y
+ __*fBodyGyro_Grand_Mean_Y*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Grand Mean in the Y Direction
 
- __*fBodyGyro_Grand_Mean_Z
+ __*fBodyGyro_Grand_Mean_Z*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Grand Mean in the Z Direction
 
- __*fBodyGyro_Std_Mean_X
+ __*fBodyGyro_Std_Mean_X*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Standard Deviation Mean in the X Direction
 
- __*fBodyGyro_Std_Mean_Y
+ __*fBodyGyro_Std_Mean_Y*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Standard Deviation Mean in the Y Direction
 
- __*fBodyGyro_Std_Mean_Z
+ __*fBodyGyro_Std_Mean_Z*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Standard Deviation Mean in the Z Direction
 
- __*fBodyGyro_Grand_MeanFreq_X
+ __*fBodyGyro_Grand_MeanFreq_X*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Frequency Grand Mean in the X Direction
 
- __*fBodyGyro_Grand_MeanFreq_Y
+ __*fBodyGyro_Grand_MeanFreq_Y*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Frequency Grand Mean in the Y Direction
 
- __*fBodyGyro_Grand_MeanFreq_Z
+ __*fBodyGyro_Grand_MeanFreq_Z*__
     type:real-valued
  	units: Radians / Second
  	Body Gyroscope Angular Velocity Frequency Grand Mean in the Z Direction
 
- __*fBodyAccMag_Grand_Mean
+ __*fBodyAccMag_Grand_Mean*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Magnitude Grand Mean
 
- __*fBodyAccMag_Std_Mean
+ __*fBodyAccMag_Std_Mean*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Magnitude Standard Deviation Mean
 
- __*fBodyAccMag_Grand_MeanFreq
+ __*fBodyAccMag_Grand_MeanFreq*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Acceleration Magnitude Frequencey Grand Mean
 
- __*fBodyBodyAccJerkMag_Grand_Mean
+ __*fBodyBodyAccJerkMag_Grand_Mean*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Body Acceleration Jerk Magnitude Grand Mean
 
- __*fBodyBodyAccJerkMag_Std_Mean
+ __*fBodyBodyAccJerkMag_Std_Mean*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Body Acceleration Jerk Magnitude Standard Deviation Mean
 
- __*fBodyBodyAccJerkMag_Grand_MeanFreq
+ __*fBodyBodyAccJerkMag_Grand_MeanFreq*__
     type:real-valued
  	units: Standard Gravity (G)
  	Body Body Acceleration Jerk Frequency Grand Mean
 
- __*fBodyBodyGyroMag_Grand_Mean
+ __*fBodyBodyGyroMag_Grand_Mean*__
     type:real-valued
  	units: Radians / Second
  	Body Body Gyroscope Magnitude Grand Mean
 
- __*fBodyBodyGyroMag_Std_Mean
+ __*fBodyBodyGyroMag_Std_Mean*__
     type:real-valued
  	units: Radians / Second
  	Body Body Gyroscope Magnitude Standard Deviation Mean
 
- __*fBodyBodyGyroMag_Grand_MeanFreq
+ __*fBodyBodyGyroMag_Grand_MeanFreq*__
     type:real-valued
  	units: Radians / Second
  	Body Body Gyroscope Magnitude Frequency Grand Mean
 
- __*fBodyBodyGyroJerkMag_Grand_Mean
+ __*fBodyBodyGyroJerkMag_Grand_Mean*__
     type:real-valued
  	units: Radians / Second
  	Body Body Gyroscope Jerk Magnitude Grand Mean
 
- __*fBodyBodyGyroJerkMag_Std_Mean
+ __*fBodyBodyGyroJerkMag_Std_Mean*__
     type:real-valued
  	units: Radians / Second
  	Body Body Gyroscope Jerk Magnitude Standard Deviation Mean
 
- __*fBodyBodyGyroJerkMag_Grand_MeanFreq
+ __*fBodyBodyGyroJerkMag_Grand_MeanFreq*__
     type:real-valued
  	units: Radians / Second
  	Body Body Gyroscope Jerk Magnitude Frequence Grand Mean
 
- __*angletBodyAccGrand_Mean_gravity
+ __*angletBodyAccGrand_Mean_gravity*__
  	type:real-valued
  	units: Radians
  	Angle Between tBodyAccGrand_Mean and gravity
 
- __*angletBodyAccJerkGrand_Mean_gravityGrand_Mean
+ __*angletBodyAccJerkGrand_Mean_gravityGrand_Mean*__
   	type:real-valued
  	units: Radians
  	Angle Between tBodyAccJerkGrand_Mean and gravityGrand_Mean
 
- __*angletBodyGyroGrand_Mean_gravityGrand_Mean
+ __*angletBodyGyroGrand_Mean_gravityGrand_Mean*__
    	type:real-valued
  	units: Radians
  	Angle Between tBodyAccJerkGrand_Mean and gravityGrand_Mean
 
- __*angletBodyGyroJerkGrand_Mean_gravityGrand_Mean
+ __*angletBodyGyroJerkGrand_Mean_gravityGrand_Mean*__
     type:real-valued
  	units: Radians
  	Angle Between tBodyGyroJerkGrand_Mean and gravityGrand_Mean
 
- __*angleX_gravityGrand_Mean
+ __*angleX_gravityGrand_Mean*__
     type:real-valued
  	units: Radians
  	Angle Between X-Axis and gravityGrand_Mean
 
- __*angleY_gravityGrand_Mean
+ __*angleY_gravityGrand_Mean*__
     type:real-valued
  	units: Radians
  	Angle Between Y-Axis and gravityGrand_Mean
 
- __*angleZ_gravityGrand_Mean
+ __*angleZ_gravityGrand_Mean*__
     type:real-valued
  	units: Radians
  	Angle Between Z-Axis and gravityGrand_Mean
