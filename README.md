@@ -6,5 +6,17 @@ The [script](run_analysis.R) takes the raw data and produces a data set containi
 
 The codebook for the resultant data produced by the [script](run_analysis.R) can be read [here](Codebook.md)
 
+The steps the [script](run_analysis.R) takes to produce the summary data is as follows:
+
+1. Read in the activity labels from `/UCI HAR Dataset/activity_labels.txt`
+2. Read in the feature descriptions from `/UCI HAR Dataset/features.txt`
+3. Read in `/UCI HAR Dataset/train/X_train.txt` 
+4. Construct Column Names from feature descriptions obtained in step 3. Steps are below
+    1. Remove `(`, `)` from Column descriptions
+    2. Replace `-` and `,` with `_` in Column descriptions
+    3. Replace word `mean` with `Grand Mean` in Column Descriptions
+    4. Replace word `std` with `Std_Mean` in Column Descriptions.
+5. 
+
 
 
