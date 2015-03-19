@@ -18,14 +18,14 @@
  	Unique Identifier for each Subject
 
  __*activity*__		
- 	type:Category
- 	Describes the Activity Undertaken
- 	WALKING
-	WALKING_UPSTAIRS
-	WALKING_DOWNSTAIRS
-	SITTING
-	STANDING
-	LAYING
+ 	type:Category  
+ 	Describes the Activity Undertaken  
+ 	WALKING  
+	WALKING_UPSTAIRS  
+	WALKING_DOWNSTAIRS  
+	SITTING  
+	STANDING  
+	LAYING  
 
  ### 't' Prefix -- Data in the Time Domain (see notes above) ###
 
