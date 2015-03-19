@@ -26,7 +26,13 @@ Steps X thru X are performed twice. Once for the training dataset and the other 
 9. Add activity ids from dataframe created in previous step to the `<curr_datset_type>` dataframe
 10. Read in the subject data from  `/UCI HAR Dataset/subject_<curr-dataset_type>.txt` into subject dataframe.
 11. Add the subject ids from the subject data frame as a column to the `<curr_datset_type>` dataframe
-12. 
+12. Set `<curr_dataset_type>` to `test` and repeat steps 4 - 11.
+13. Combine the `test` and `train` dataframes into 1 dataframe
+14. Sort the combinded dataframe by the activity_id
+15. Create new aggregated dataframe by averaging all the columns for each subject by activity
+16. Replace the numeric activity ids in the aggregated dataframe with the activity descriptions obtained in step 1.
+17. Sort the aggregated dataframe by subject id and activity
+18. Write the aggregated dataframe to `aggregated.txt` in the current working directory.
 
 
 
