@@ -10,7 +10,7 @@
  Data prefixed with `t` represent measurements in the time domain.
  Data prefixed with `f` represent measurements in the frequency domain. These were obtained by applying an an FFT (Fast Fourier Transform) to some of the data in the time domain.  For more information see feature_info.txt mentined above.
 
- Data Types used to decribe each data are describe here <http://en.wikipedia.org/wiki/Statistical_data_type>
+ Data Types used to describe each data are describe here <http://en.wikipedia.org/wiki/Statistical_data_type>
 
  subject_id		
  	type:count
