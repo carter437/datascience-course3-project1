@@ -1,1 +1,4 @@
 UCI*
+*.Rproj
+.Rproj.user
+aggregatedData.txt

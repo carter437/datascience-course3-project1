@@ -73,3 +73,5 @@ combinedSorted <- combined[with(combined,order(activity)),]
 aggregated <- aggregate(combinedSorted[,3:88],combinedSorted[,1:2], data=combinedSorted,FUN=mean)
 aggregated <- mapActivityColumn(aggregated)
 aggregated <- aggregated[with(aggregated,order(subject_id,activity)),]
+
+write.table(aggregated,file="aggregatedData.txt",row.names=F)
